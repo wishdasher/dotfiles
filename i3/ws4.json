@@ -1,0 +1,46 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 525,
+       "width": 850,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Notable",
+    "percent": 0.66875,
+    "swallows": [
+       {
+       // "class": "^Notable$",
+       // "instance": "^notable$",
+       // "title": "^Notable$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 480,
+       "width": 640,
+       "x": 0,
+       "y": 0
+    },
+    "name": "setxkbmap -option 'altwin:swap_alt_win' • - Sublime Text (UNREGISTERED)",
+    "percent": 0.33125,
+    "swallows": [
+       {
+       // "class": "^Sublime_text$",
+       // "instance": "^sublime_text$",
+       // "title": "^setxkbmap\\ \\-option\\ \\'altwin\\:swap_alt_win\\'\\ \\•\\ \\-\\ Sublime\\ Text\\ \\(UNREGISTERED\\)$"
+       }
+    ],
+    "type": "con"
+}
+

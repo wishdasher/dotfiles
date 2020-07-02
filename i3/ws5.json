@@ -1,0 +1,45 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "none",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 600,
+       "width": 900,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Home",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Org\\.gnome\\.Nautilus$",
+       // "instance": "^org\\.gnome\\.Nautilus$",
+       // "title": "^Home$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1414,
+       "width": 1276,
+       "x": 3200,
+       "y": 461
+    },
+    "name": "Rhythmbox",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Rhythmbox$",
+       // "instance": "^rhythmbox$",
+       // "title": "^Rhythmbox$"
+       }
+    ],
+    "type": "con"
+}
+

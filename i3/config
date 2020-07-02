@@ -45,7 +45,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 bindsym $mod+F4 kill
 
 # start dmenu (a program launcher)
@@ -65,7 +65,12 @@ bindsym $mod+i exec nautilus
 bindsym $mod+n exec subl
 bindsym $mod+m exec notable
 
-bindsym $alt+l exec i3lock -t -i ~/Pictures/background.png
+# function and media
+bindsym $mod+XF86AudioRaiseVolume exec xbacklight -inc 10
+bindsym $mod+XF86AudioLowerVolume exec xbacklight -dec 10
+
+# lock screen
+bindsym $alt+l exec ~/.config/i3/lock.sh
 
 # change focus
 bindsym $mod+h focus left
@@ -165,7 +170,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $alt+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+Alt+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+q exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -198,7 +203,15 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+	font pango:monospace 16
 }
 
 bindsym $mod+Shift+greater move container to output right
 bindsym $mod+Shift+less move container to output left
+
+exec --no-startup-id "i3-msg 'workspace 1; append_layout ~/.config/i3/ws1.json'"
+exec --no-startup-id "i3-msg 'workspace 2; append_layout ~/.config/i3/ws2.json'"
+exec --no-startup-id "i3-msg 'workspace 3; append_layout ~/.config/i3/ws3.json'"
+exec --no-startup-id "i3-msg 'workspace 4; append_layout ~/.config/i3/ws4.json'"
+exec --no-startup-id "i3-msg 'workspace 5; append_layout ~/.config/i3/ws5.json'"
+

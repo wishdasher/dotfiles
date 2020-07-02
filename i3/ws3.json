@@ -1,0 +1,47 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 977,
+       "width": 814,
+       "x": 0,
+       "y": 0
+    },
+    "name": "sophie@mori: ~",
+    "percent": 0.46015625,
+    "swallows": [
+       {
+       // "class": "^Gnome\\-terminal$",
+       // "instance": "^gnome\\-terminal\\-server$",
+       // "title": "^sophie\\@mori\\:\\ \\~$",
+       // "window_role": "^gnome\\-terminal\\-window\\-ba14925b\\-bbb9\\-4f89\\-8ee0\\-56661fd9079c$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1389,
+       "width": 849,
+       "x": 0,
+       "y": 0
+    },
+    "name": "@tey - Discord",
+    "percent": 0.53984375,
+    "swallows": [
+       {
+       // "class": "^discord$",
+       // "instance": "^discord$",
+       // "title": "^\\@tey\\ \\-\\ Discord$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
