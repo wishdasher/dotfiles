@@ -1,0 +1,12 @@
+[user]
+	name = Sophie Mori
+	email = ksmori14@gmail.com
+[alias]
+	p = pull
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	lol = log --graph --oneline --decorate --color --all
+[pull]
+	rebase = true
